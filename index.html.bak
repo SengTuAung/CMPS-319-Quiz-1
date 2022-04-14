@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<!-- Saung 3/17/22 New 1L: Implemented meta keywords for better search result -->
+<meta name="keywords" content="HTML,CSS,JavaScript">
+<meta name="description" content="Café Wang Chinese Fusion & Bar">
+<meta name="author" content="Seng Tu Aung">
+<meta http-equiv="refresh" content="30">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>Café Wang Chinese Fusion & Bar</title>
+<!-- Saung 3/17/22 New 1L: Link the html to css file -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1> Café Wang Chinese Fusion & Bar </h1>
+<br>
+<h2> Overview </h2>
+<!-- Saung 3/17/22 New 1L: Implement paragraph tags -->
+<p> Cafe Wang offers delicious dining and takeout to La Verne, CA.
+<br>
+Cafe Wang is a cornerstone in the La Verne community and has been recognized for its outstanding Chinese cuisine, excellent service and friendly staff.
+<br>
+Our Chinese restaurant is known for its modern interpretation of classic dishes and its insistence on only using high quality fresh ingredients.</p>
+<br>
+<img src="cafe-wang-chinese-fusion.jpg" alt="food" width="800" height="600"/>
+<hr>
+<br>
+<!-- Saung 3/17/22 New 1L: Implement h2 title -->
+<h1> About </h1>
+
+<h2> Revisit history through food on your palette</h2>
+<p> Cafe Wang was founded in December 2015 and it took 2 years to develop its unique design and approach to Chinese culture. 
+Operation began in June 2018. The name is derived from the founder's family name, Wang, and the hope that the Wang family's secret Chinese recipes are infused with American cuisine culture to create a perfect combination.
+ In fact, the logo is an infusion of the east and west cultures, like many of the restaurant’s dishes, with a combination of Chinese calligraphy, Chinese stamps, Chinese characters and English letters.</p>
+ 
+ <p>The restaurant's ambiance is a trendy, artistic and industrial look. A young team of designers developed the style. 
+ All of the restaurant's furniture, dinnerware, and various equipment was all created and shipped from China.
+ The philosophy is that all these components are vital to the restaurant, it's not only about the recipes, it has to be an entire creative experience and the right environment to really enjoy your meal.</p>
+
+<!-- Saung 3/17/22 New 1L: implemented iframe to show youtube video result in the page -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4aULfmJjKS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h1> Menu </h1>
+
+<!-- Saung 3/17/22 New 1L: Implement h2 title -->
+<h2> Course Schedule </h2>
+<!-- Saung 3/17/22 New 1L: Created table -->
+<table>
+                <tr>
+                    <th>Item</th>
+                    <th>Description</th>
+                    <th>Image</th>
+                </tr>
+            
+			<tr>
+	<td>Orange Chicken</td>
+	<td><p>Chicken and orange sauce</p></td>
+	<td><img src="Chinese-Orange-Chicken.jpg" alt="food" width="100" height="100"/></td>
+</tr>
+<tr>
+	<td>Kung Pao Chicken</td>
+	<td><p>Chicken, bell pepper, Jalapeno, Red Chili, onion, peanut and Kung Pao sauce</p></td>
+	<td><img src="Best-Kung-Pao-Chicken.jpg" alt="food" width="100" height="100"/></td>
+</tr>
+<tr>
+	<td>Broccoli Chicken</td>
+	<td><p>Chicken, carrot, broccoli and black sauce.</p></td>
+	<td><img src="chicken-and-broccoli-stir-fry.jpg" alt="food" width="100" height="100"/></td>
+</tr>
+<tr>
+	<td>Sweet & Sour Chicken</td>
+	<td><p>Chicken, bell pepper, onion, pineapple, and sweet & sour sauce</p>
+</td>
+	<td><img src="Sweet-and-sour-chicken-square.jpg" alt="food" width="100" height="100"/></td>
+</tr>
+           
+</table>
+
+
+<h1> Contact </h1>
+
+  <!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/xgedzlpw"
+  method="POST"
+>
+<!-- Saung 3/17/22 New 10L: created form -->
+<label>
+    Name:
+    <input type="text" name="name">
+  </label>
+   <br>
+  <label>
+    Phone:
+    <input type="tel" name="phone"
+	pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required>
+	   <small>Format: 123-456-7890</small>
+  </label>
+  <br>
+  <label>
+    E-Mail:
+    <input type="email" name="email">
+  </label>
+   <br>
+  <label>
+    Subject:
+    <input type="text" name="subject">
+  </label>
+  <br>
+  <label>
+    Message:
+    <textarea name="message"></textarea>
+  </label>
+   <br>
+
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+  
+
+</form>
+
+
+</body>
+
+
+</html>
